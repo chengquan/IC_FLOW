@@ -17,6 +17,24 @@ module NPU_CUBE_ADD_TEST;
 		#50 clk = ~clk;
 	end
 
+    initial
+    begin
+    $dumpfile ("random.vcd");
+    $dumpvars(0,NPU_CUBE_ADD_TEST.NPU_CUBE_ADD_TOP_sign);
+    end
+
+    initial begin
+    `ifdef SDF_SIM
+    $sdf_annotate("/home/chengquan/DC_project/NPU_ADD_TREE/SYN/NPU_ADD_TREE.sdf",
+    NPU_CUBE_ADD_TOP_sign,,,
+    "TYPICAL",
+    "1:1:1",
+    "FROM_MTM");
+    `endif
+    end
+
+
+
 	initial begin
 		seed = 0;	
 		$display("Welcome");
@@ -48,7 +66,8 @@ module NPU_CUBE_ADD_TEST;
 	else
 		$display("\n==================================\n\tresult mismatch\n==================================");
 		//$display("simulation unsigned result is %d",s_unsigned_result);			
-		//$display("simulation   signed result is %d",s_signed_result);			
+		//$display("simulation   signed result is %d",s_signed_result);	
+    $finish;
 	end	
 
 
@@ -80,7 +99,7 @@ assign result_soft_sign = $signed({mul1[ 7: 0]})*$signed(mul2[ 7: 0]) +
     .add_result(result_hard_sign)
 	);
 
-	NPU_ADD_TREE_TOP NPU_ADD_TREE_TOP_unsign(
+	NPU_ADD_TREE_TOP NPU_CUBE_ADD_TOP_unsign(
     .clk(clk),
     .add_tree_data(mul1),
     .add_tree_para(mul2),
