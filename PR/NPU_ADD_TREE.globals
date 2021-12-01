@@ -1,0 +1,16 @@
+set ::TimeLib::tsgMarkCellLatchConstructFlag 1
+set conf_qxconf_file {NULL}
+set conf_qxlib_file {NULL}
+set defHierChar {/}
+set distributed_client_message_echo {1}
+set init_gnd_net {VSS}
+set init_lef_file {/home/IC/NPU_ADD_TREE/SM28lib/techlib/tlef/scc28n_1p7m_6ma_6ic_1tmc_alpa1.lef /home/IC/NPU_ADD_TREE/SM28lib/std/lef/scc28nhkcp_hdc30p140_rvt_ant.lef}
+set init_mmmc_file {../PR/NPU_ADD_TREE.view}
+set init_pwr_net {VDD}
+set init_top_cell {NPU_ADD_TREE_TOP}
+set init_verilog {../SYN/NPU_ADD_TREE.v}
+set lsgOCPGainMult 1.000000
+set pegDefaultResScaleFactor 1.000000
+set pegDetailResScaleFactor 1.000000
+set timing_library_float_precision_tol 0.000010
+set timing_library_load_pin_cap_indices {}
