@@ -3,4 +3,5 @@
 2021/11/18 DC  Script upload  
 2021/11/21 VCS Script upload （Netlist simulation）  
 2021/11/22 PT  Script upload  
-2021/12/01 PR  Initial Script upload
+2021/12/01 PR  Initial Script upload  
+2021/12/02 PR  floorplan Script upload
