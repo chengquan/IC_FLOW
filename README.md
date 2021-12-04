@@ -7,3 +7,4 @@
 2021/12/01 PR  Initial Script upload  
 2021/12/02 PR  floorplan Script upload （toss the coin to get pin_place.tcl）    
 2021/12/03 PR  powerplan Script upload （toss the coin to get powerplan.tcl）  
+2021/12/04 PR  placement Script upload
