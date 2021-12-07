@@ -1,5 +1,6 @@
 # IC_FLOW
 # 微信公众号: 邓诗颖的甜心小迷弟
+# PR脚本不太开放，谢谢
 2021/11/17 VCS Script upload （RTL simulation）   
 2021/11/18 DC  Script upload  
 2021/11/21 VCS Script upload （Netlist simulation）  
