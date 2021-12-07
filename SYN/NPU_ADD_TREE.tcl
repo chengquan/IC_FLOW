@@ -29,7 +29,9 @@ check_design
 
 
 create_clock -name clk -period 2 [get_ports clk]
-set_input_delay 0 -clock clk [all_inputs]
+set_input_delay 0.27272 -clock clk [all_inputs]
+set_input_delay 0 [get_ports clk]
+
 set_output_delay 0 -clock clk [all_outputs]
 set_load [expr  0.00771681 * 3] [all_outputs]
 
