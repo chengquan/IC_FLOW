@@ -19,8 +19,7 @@ parameter DWOUPUT =   19;
 parameter DWPPLEN =   10;
 
 
-wire [DWOUPUT-1:0]    result_s;
-wire [DWOUPUT-1:0]    result_c; 
+wire [DWOUPUT-1:0]    result;
 
 wire [7:0] sign0;
 wire [7:0] sign1;
@@ -78,11 +77,10 @@ NPU_CUBE_ADD_TREE_CODE NPU_CUBE_ADD_TREE_CODE(
     .add_tree_data(o_add_tree_data),
     .add_tree_para_code(add_tree_para_code),
     .is_signed(is_signed_data),
-	.output_add_tree_result_s(result_s),
-	.output_add_tree_result_c(result_c)
+	.output_add_tree_result(result)
 );
 
-assign add_result = result_s + (result_c<<1) + (1024<<5) + (1024<<7) + (1024<<9) + 
+assign add_result = result + (1024<<5) + (1024<<7) + (1024<<9) + 
 		  addline0 + (addline1<<2)+(addline2<<4)+(addline3<<6);
 
 
