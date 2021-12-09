@@ -35,7 +35,7 @@ module NPU_CUBE_ADD_TEST;
 
     initial begin
     `ifdef SDF_PR_SIM
-    $sdf_annotate("/NPU_ADD_TREE/PR/data/NPU_ADD_TREE.sdf",
+    $sdf_annotate("/NPU_ADD_TREE/PR/data/NPU_ADD_TREE_TOP.sdf",
     NPU_CUBE_ADD_TOP_sign,,,
     "TYPICAL",
     "1:1:1",
