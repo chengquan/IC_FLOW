@@ -25,7 +25,17 @@ module NPU_CUBE_ADD_TEST;
 
     initial begin
     `ifdef SDF_SIM
-    $sdf_annotate("/home/chengquan/DC_project/NPU_ADD_TREE/SYN/NPU_ADD_TREE.sdf",
+    $sdf_annotate("/NPU_ADD_TREE/SYN/NPU_ADD_TREE.sdf",
+    NPU_CUBE_ADD_TOP_sign,,,
+    "TYPICAL",
+    "1:1:1",
+    "FROM_MTM");
+    `endif
+    end
+
+    initial begin
+    `ifdef SDF_PR_SIM
+    $sdf_annotate("/NPU_ADD_TREE/PR/NPU_ADD_TREE.sdf",
     NPU_CUBE_ADD_TOP_sign,,,
     "TYPICAL",
     "1:1:1",
