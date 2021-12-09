@@ -1,6 +1,6 @@
 #/bin/bash
 #ALL_DEFINE = +define+NET_SIM
-vcs -V -R -timescale=1ns/1ps -sverilog +neg_tchk ../Verilog/NPU_CUBE_ADD_TEST.sv ../PR/data/NPU_ADD_TREE.v \
+vcs -V -R -timescale=1ns/1ps -sverilog +neg_tchk ../Verilog/NPU_CUBE_ADD_TEST.sv ../PR/NPU_ADD_TREE.v \
 ../SM28lib/synthesis/lib/scc28nhkcp_hdc30p140_rvt.v \
 +define+SDF_PR_SIM \
 -o simv -gui -debug_pp -full64
