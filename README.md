@@ -12,5 +12,5 @@
 2021/12/05 PR  CTS Script upload  
 2021/12/06 PR  route Script upload （toss the coin to get route_opt.tcl）      
 2021/12/07 PR  chipfinish Script upload
-2021/12/08 PR  Spef & sdf Script upload
+2021/12/08 PR  Spef & sdf Script upload  
 2021/12/09 VCS back-end Script upload
