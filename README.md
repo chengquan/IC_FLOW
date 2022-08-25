@@ -6,11 +6,11 @@ PR脚本已取消Github分享。请前往《吾爱IC社区》获取，读者可�
 2021/11/22 PT  front-end Script upload  
 2021/12/01 PR  Initial Script upload  
 2021/12/02 PR  floorplan Script upload   
-2021/12/03 PR  powerplan Script upload
+2021/12/03 PR  powerplan Script upload  
 2021/12/04 PR  placement Script upload  
 2021/12/05 PR  CTS Script upload  
-2021/12/06 PR  route Script upload
-2021/12/07 PR  chipfinish Script upload  
+2021/12/06 PR  route Script upload  
+2021/12/07 PR  chipfinish Script upload    
 2021/12/08 PR  Spef & sdf Script upload  
 2021/12/09 VCS back-end Script upload  
 2021/12/10 PT  back-end Script upload
