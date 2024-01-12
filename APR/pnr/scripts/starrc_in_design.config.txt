@@ -1,0 +1,4 @@
+SIGNOFF_IMAGE: singularity exec /home/work/default/container/starrc_hercules.sif StarXtract
+MAPPING_FILE: ./library/tech//starrc/saed32nm_tf_itf_tluplus.starrc_in_design.map
+CORNER_GRD_FILE:./pnr/scripts/starrc_in_design.corners.txt
+COMMAND_FILE:../pnr/scripts/starrc_in_design.cmd

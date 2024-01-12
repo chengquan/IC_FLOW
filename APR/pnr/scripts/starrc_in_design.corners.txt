@@ -1,0 +1,3 @@
+ss0p75v125c_cmax ./library/tech/starrc/saed32nm_1p9m_Cmax.nxtgrd
+ff0p95vm40c_cmin ./library/tech/starrc/saed32nm_1p9m_Cmin.nxtgrd
+ff0p95v125c_cmin ./library/tech/starrc/saed32nm_1p9m_Cmin.nxtgrd
