@@ -13,5 +13,5 @@ PR脚本已取消Github分享。请前往《吾爱IC社区》获取，读者可�
 2021/12/07 PR  chipfinish Script upload    
 2021/12/08 PR  Spef & sdf Script upload  
 2021/12/09 VCS back-end Script upload  
-2021/12/10 PT  back-end Script upload
+2021/12/10 PT  back-end Script upload  
 2024/01/12 ICC2 APR Script upload
