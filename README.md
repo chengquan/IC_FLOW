@@ -16,4 +16,4 @@ PR脚本已取消Github分享。请前往《吾爱IC社区》获取，读者可�
 2021/12/10 PT  back-end Script upload  
 2024/01/12 ICC2 APR Script upload (ref:https://github.com/Juanx65/RISC-V)  
 2025/10/26 Innovus PAD placement Script upload  
-2025/10/29 Primelib Script upload
+2025/10/29 Primelib Script (LibChar) upload
